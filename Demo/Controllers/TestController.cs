@@ -10,7 +10,7 @@ namespace Demo.Controllers
         [HttpGet()]
         public IActionResult Greet()
         {
-            return Ok(new { Name="Surendar",Character="God level good boy",Beauty="Always handsome"});
+            return Ok(new { Name="Surendar",Character="God level good boy",Beauty="More More handsome"});
         }
     }
 }
